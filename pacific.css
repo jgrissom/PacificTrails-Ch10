@@ -86,6 +86,13 @@ td, th {
 }
 td { text-align: center; }
 .text { text-align: left; }
+form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+input, textarea {
+  margin-bottom: .5em;
+}
 footer { 
   font-size: 75%;
   font-style: italic;
