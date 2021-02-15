@@ -153,6 +153,10 @@ footer {
     grid-template-columns: 6em 1fr;
     grid-template-rows: auto;
   }
+  input[type="submit"] { 
+    grid-column: 2 / 3;
+    width: 9em; 
+  }
   section { 
     grid-row: 2 / 3; grid-column: auto; 
   }
